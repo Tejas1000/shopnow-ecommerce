@@ -39,3 +39,10 @@ npm install
 # Create .env file in backend folder
 # Then run:
 npm run dev
+
+
+📸 Screenshots
+(Coming Soon)
+👨‍💻 Author
+Tejas
+MERN Stack Developer | Portfolio Project
