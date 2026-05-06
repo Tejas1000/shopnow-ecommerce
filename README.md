@@ -1,34 +1,41 @@
 # ShopNow - MERN Stack E-commerce Website
 
-A full-featured modern e-commerce website built with **MERN Stack** (MongoDB, Express, React, Node.js).
-
-![ShopNow](https://img.shields.io/badge/Status-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue)
+A full-featured modern e-commerce platform built with MongoDB, Express, React & Node.js.
 
 ## ✨ Features
 
-- ✅ User Authentication (Register/Login)
-- ✅ Product Browsing with Search & Filters
-- ✅ Category-wise & Price Range Filtering
-- ✅ Add to Cart with Quantity System
-- ✅ Checkout Page
-- ✅ My Orders & Order Cancellation
-- ✅ Admin Panel (Add/Edit/Delete Products + Image Upload)
-- ✅ Dark/Light Mode
-- ✅ Responsive Design (Mobile + Desktop)
-- ✅ Reviews System
+- User Authentication (Register/Login)
+- Product Browsing with Search & Filters
+- Price Range Slider + Category Filter
+- Add to Cart with Quantity System
+- Checkout & Order Management
+- Admin Panel (CRUD + Image Upload)
+- Dark/Light Mode
+- Responsive Design
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React.js, Tailwind CSS, Framer Motion
-- **Backend**: Node.js, Express.js
+- **Frontend**: React.js + Tailwind CSS
+- **Backend**: Node.js + Express
 - **Database**: MongoDB Atlas
 - **Authentication**: JWT
-- **State Management**: React Context API
 
 ## 🚀 How to Run Locally
 
-### 1. Clone the Repository
 ```bash
+# Clone the project
 git clone https://github.com/Tejas1000/shopnow-ecommerce.git
 cd shopnow-ecommerce
+
+# Frontend Setup (new terminal)
+cd ../frontend
+npm install
+npm start
+
+# Backend Setup
+cd backend
+npm install
+
+# Create .env file in backend folder
+# Then run:
+npm run dev
